@@ -1,17 +1,5 @@
-# Welcome to MkDocs
+# Welcome to FitMonitor Documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This website serves as the official documentation for the **FitMonitor** project. 
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+FitMonitor is designed to help users monitor and manage their fitness activities effectively. Here, you will find detailed information about the project's features, architecture, and much more information.

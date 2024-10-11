@@ -1,1 +1,58 @@
-site_name: My Docs
+site_name: FitMonitor
+nav:
+  - Home: index.md
+  - Documentation:
+    - Introduction: 
+      - About the Project: documentation/introduction.md
+      - Architecture: documentation/architecture.md
+      - Key Concepts: documentation/key-concepts.md
+      - Tech Stack: documentation/tech-stack.md
+      - Definition of Ready: documentation/dor.md
+      - Definition of Done: documentation/dod.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: ligt-blue
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
