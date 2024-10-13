@@ -5,3 +5,4 @@ The Definition of Done (DoD) outlines the criteria that must be met for a task t
 1. Code Completed: The development work has been finished, and all code has been written
 2. Documentation Updated: Any relevant documentation (such as user manuals, API documentation, or technical notes) has been updated to reflect the changes made
 3. Deployed to Production or Staging: The feature has been deployed to the production environment or, at the very least, to a staging environment for further evaluation
+4. Testing Completed: The feature has been thoroughly tested, including unit tests and integration tests to ensure it meets the acceptance criteria, when appliable.
