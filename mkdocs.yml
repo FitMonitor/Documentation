@@ -9,6 +9,8 @@ nav:
       - Tech Stack: documentation/tech-stack.md
       - Definition of Ready: documentation/dor.md
       - Definition of Done: documentation/dod.md
+  - Sprints:
+    - Sprint: sprints/sprint.md
 
 theme:
   name: material
