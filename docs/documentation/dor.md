@@ -7,3 +7,19 @@ The Definition of Ready (DoR) is a set of criteria used in Agile project managem
 3. Dependencies Identified: Any dependencies on other tasks or resources should be identified and addressed
 4. Prioritized: The user story should be prioritized in the product backlog, indicating its importance relative to others
 5. Testable: There should be a clear understanding of how the feature will be tested, including any necessary test cases
+
+# Story Points Estimation
+
+Story points serve as a metric to assess the effort required to complete a user story in our product backlog. To better organize the work to be performed, before each sprint, we evaluate our stories and the estimated effort for each one.
+
+| Story Points | Effort Required     | Complexity      | Risk and Uncertainties |
+|--------------|---------------------|------------------|------------------------|
+| 1            | Low                 | Low              | Low                    |
+| 2            | Medium-Low          | Low              | Medium-Low             |
+| 3            | Medium              | Medium           | Medium                 |
+| 5            | Medium-High         | Medium-High      | High                   |
+| 8            | High                | High             | High                   |
+| 13           | Very High           | High             | Medium-High            |
+| 21           | Extremely High      | Very High        | Extremely High         |
+
+
