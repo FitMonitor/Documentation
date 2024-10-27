@@ -48,3 +48,42 @@ Despite the short duration of this first sprint, we did not anticipate deliverin
 ---
 
 ## Sprint 2 - 14/10/2024 - 27/10/2024
+**Sprint Goal**
+
+For the second sprint, the focus was on developing essential features that enhance user interaction and management within the gym platform. These features aim to improve both the administrative functionality and the user experience. The main tasks included:
+
+1. __Machine Management__: Implementing a feature that allows gym administrators to add and manage machines available in the gym. This ensures users have updated information on the machines accessible to them.
+
+2. __Homepage Redirection__: Creating a functionality to redirect users to their personalized homepage upon login, where they can quickly access relevant information about their gym, enhancing the user experience by simplifying navigation.
+
+3. __User Access Control__: Adding a user management system, enabling administrators to control access permissions for various users. This ensures that only registered users have the appropriate access rights to the platform's features.
+
+4. __Real-Time Gym Capacity Check__: Developing a section where gym members can view the gym's current capacity. This provides users with the convenience of planning their gym visits based on occupancy, ensuring a better experience.
+
+These implementations lay the groundwork for a more interactive and user-centric platform, allowing both administrators and members to efficiently manage and utilize gym resources.
+
+**Responsible Team**
+
+- Scrum Master: [Diogo Silva](https://github.com/DiogoSilva1904)
+- Product Owner: [Diogo Pinto](https://github.com/diogopnt)
+- Developers: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro) & [Miguel Vieira](https://github.com/Arn46)
+
+**User Stories**
+
+| User Stories | Description            | Story Points |
+|--------------|------------------------|--------------|
+| FIT-25       | Add Machines           | 3            |
+| FIT-12       | Home-Page Redirect     | 5            |
+| FIT-20       | Add User Management    | 8            |
+| FIT-26       | See Gym Capacity       | 5            |
+
+
+**Sprint Retrospective**
+
+In this second sprint, we made significant progress in developing key functionalities focused on user management and interaction within the platform. We successfully completed the Add Machines and Home-Page Redirect user stories, which were implemented and tested thoroughly.
+
+However, the Add User Management and See Gym Capacity functionalities were only partially completed. For Add User Management, some components were implemented, but the story was not fully finalized. For See Gym Capacity, the implementation remains incomplete, as essential testing and the connection between the backend and frontend were not fully achieved.
+
+These pending tasks will be prioritized in the next sprint to ensure the functionalities are fully tested and integrated.
+
+**Sprint Burndown Chart**
