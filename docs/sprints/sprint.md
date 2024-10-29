@@ -80,10 +80,21 @@ These implementations lay the groundwork for a more interactive and user-centric
 
 **Sprint Retrospective**
 
-In this second sprint, we made significant progress in developing key functionalities focused on user management and interaction within the platform. We successfully completed the Add Machines and Home-Page Redirect user stories, which were implemented and tested thoroughly.
+In this second sprint, we made significant progress in developing key functionalities, primarily focusing on user management and interaction within the platform. We successfully completed the Add Machines and Home-Page Redirect user stories, both of which were implemented and thoroughly tested.
 
-However, the Add User Management and See Gym Capacity functionalities were only partially completed. For Add User Management, some components were implemented, but the story was not fully finalized. For See Gym Capacity, the implementation remains incomplete, as essential testing and the connection between the backend and frontend were not fully achieved.
+However, some functionalities, such as Add User Management and See Gym Capacity, remain partially completed. In the Add User Management story, several components were implemented, but the story was not fully finalized. For See Gym Capacity, the implementation was also left incomplete, as essential testing and the connection between the backend and frontend were not fully achieved.
 
-These pending tasks will be prioritized in the next sprint to ensure the functionalities are fully tested and integrated.
+An additional factor contributing to these unfinished tasks has been communication challenges within the development team over the course of these first two sprints. Due to these issues, some development efforts were misdirected to tasks not originally planned for this sprint, impacting the team’s ability to complete the intended work.
+
+To address these challenges and streamline development, we plan to improve organization and clarity within our Jira board. Specifically, we aim to make the details of each user story and task as explicit as possible to ensure all team members have a clear understanding of the scope and priorities.
+
+In the next sprint, we will prioritize the pending tasks to ensure they are fully tested, integrated, and aligned with the planned objectives.
 
 **Sprint Burndown Chart**
+![Sprint 1 Burndown Chart](../files/Spring2BurndownChart.png)
+
+---
+
+## Sprint 3 - 28/10/2024 - 10/11/2024
+**Sprint Goal**
+
