@@ -98,3 +98,34 @@ In the next sprint, we will prioritize the pending tasks to ensure they are full
 ## Sprint 3 - 28/10/2024 - 10/11/2024
 **Sprint Goal**
 
+In this sprint, our objective is to improve the overall user experience by conducting research and developing strategies for essential functionalities related to workout management and user access control. Our primary focus will be on:
+
+1. __Researching QR Code Features__: This includes investigating the best practices and technologies for QR code scanning and generation, as well as how to handle error scenarios effectively, to ensure a seamless user experience when accessing the gym.
+
+2. __Adding New Exercises__: We will enable users to add exercises to their workout plans, allowing them to track their training routines more effectively. This will involve creating an interface where users can input exercise details such as name, repetitions, sets, and weight.
+
+3. __Completing User Management Functionality__: Addressing the task from the previous sprint, we will implement user management features that allow administrators to manage user permissions effectively. This is a "carryover" task aimed at ensuring that only authorized users have access to the gym account.
+
+4. __Deploying in AWS Services__: We will research and set up the necessary infrastructure for deploying our application using AWS services, ensuring scalability and reliability for our user base.
+
+Successfully executing these tasks will enable us to establish a robust foundation for advanced features, enhance user interaction, and ensure secure access for all members while preparing the application for deployment in the cloud.
+
+**Responsible Team**
+
+- Scrum Master: [Miguel Vieira](https://github.com/Arn46)
+- Product Owner: [Diogo Silva](https://github.com/DiogoSilva1904)
+- Developers: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro) & [Diogo Pinto](https://github.com/diogopnt)
+
+**User Stories**
+
+| User Stories | Description            | Story Points |
+|--------------|------------------------|--------------|
+| FIT-20       | Add User Management          | 8            |
+| FIT-24       | Add new Exercices    | 5            |
+
+**Principal Tasks**
+
+| User Stories | Description            | Type |
+|--------------|------------------------|--------------|
+| FIT-46       | Deploy in AWS Services          | Cloud            |
+| FIT-47       | QR Code Implementation Research    | Research            |
