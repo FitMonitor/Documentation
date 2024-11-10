@@ -125,7 +125,70 @@ Successfully executing these tasks will enable us to establish a robust foundati
 
 **Principal Tasks**
 
-| User Stories | Description            | Type |
+| Tasks | Description            | Type |
 |--------------|------------------------|--------------|
 | FIT-46       | Deploy in AWS Services          | Cloud            |
 | FIT-47       | QR Code Implementation Research    | Research            |
+
+
+**Sprint Retrospective**
+
+In this third sprint, we made steady progress in several areas, with a focus on user management and exercise functionalities 
+within the platform. The __“Add User Management”__ user story, which had been carried over from the previous sprint, was successfully
+completed. Additionally, we made progress on the __“Add New Exercises”__ story, implementing the main functionality required to add 
+exercises to the system. However, this story remains incomplete according to our __Definition of Done__, as the required testing has 
+not yet been performed.
+
+We also conducted two research tasks: deployment on AWS services and QR Code implementation. The QR Code research was fully completed,
+providing the foundational knowledge needed for future integration. For __AWS deployment__, we established an initial architecture, 
+but there are still some open questions that require clarification from our professors before we can finalize the design to better 
+fit our requirements.
+
+Although we did not achieve 100% of what we had initially planned, this sprint marked improvements in team communication and 
+organization. Task delegation was clearer, and progress was monitored more effectively, allowing us to address blockers earlier.
+Looking ahead, the team has outlined the necessary work for the next sprint, setting clear priorities and defining the research areas 
+that need further exploration. With these steps, we are aiming to increase focus and ensure successful completion of ongoing and 
+upcoming tasks.
+
+**Sprint Burndown Chart**
+![Sprint 1 Burndown Chart](../files/Spring3BurndownChart.png)
+
+---
+
+## Sprint 4 - 11/11/2024 - 24/11/2024
+**Sprint Goal**
+
+In this sprint, our goal is to enhance gym member access, app functionality, and reliability by implementing secure QR code features and deploying the app in a robust cloud environment. The main focus will be:
+
+1. __Member Access QR Code Generation__: Upon registration, each gym member will receive a unique QR code, accessible directly in the app, to facilitate entry into the gym. This will improve access control and simplify member check-in.
+
+2. __Gym Entrance QR Code Scanning__: Members will be able to scan their unique QR code at the gym entrance, allowing for a seamless and secure check-in experience. If the code fails to scan, the system will prompt the member to retry, ensuring smooth entry for all users.
+
+3. __AWS Deployment__: Deploying the application on AWS will allow for consistent performance and high availability, ensuring members have reliable access to their data and a seamless experience across all features.
+
+4. __Log-Out Feature__: Adding a log-out option will provide members with the ability to switch accounts securely within the app.
+
+Completing these objectives will enhance entry processes, improve security, and provide members with a reliable, high-performance application that supports their needs efficiently.
+
+**Responsible Team**
+
+- Scrum Master: [Diogo Pinto](https://github.com/diogopnt)
+- Product Owner: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro)
+- Developers: [Miguel Vieira](https://github.com/Arn46) & [Diogo Silva](https://github.com/DiogoSilva1904)
+
+
+**User Stories**
+
+| User Stories | Description                              | Story Points |
+|--------------|------------------------------------------|--------------|
+| FIT-24       | Add new Exercices                        | 5            |
+| FIT-42       | QR Code Scanning at Gym Entrance         | 5            |
+| FIT-21       | QR Code Generation for Members           | 3            |
+| FIT-59       | AWS Deployment                           | 8            |
+| FIT-58       | Log Out                                  | 1            |
+
+**Principal Tasks**
+
+| Tasks | Description            | Type |
+|--------------|------------------------|--------------|
+| FIT-46       | Deploy in AWS Services          | Cloud            |
