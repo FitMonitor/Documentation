@@ -192,3 +192,26 @@ Completing these objectives will enhance entry processes, improve security, and 
 | Tasks | Description            | Type |
 |--------------|------------------------|--------------|
 | FIT-46       | Deploy in AWS Services          | Cloud            |
+
+**Sprint Retrospective**
+
+In this sprint, the progress achieved was limited due to competing priorities from assignments and deliverables in other courses. 
+As a result, only the __“Log Out”__ user story was fully completed and met the team’s __Definition of Done__. 
+This feature now allows users to securely log out and switch accounts seamlessly.
+
+The __“AWS Deployment”__ task also saw some advancement, with foundational work on deploying the application in the cloud. 
+However, this task remains incomplete according to the __Definition of Done__, as further refinement and clarification are required to 
+align the architecture with project requirements.
+
+Unfortunately, the remaining user stories — __“Add New Exercises”__ __“QR Code Scanning at Gym Entrance”__ and 
+__“QR Code Generation for Members”__ — were not addressed in this sprint. These will carry over to the next sprint for prioritization.
+
+Despite the reduced output during this sprint, the team remains committed to addressing these outstanding tasks and has already 
+planned the work for the upcoming sprint. Additionally, the planned Sprint Review session with professors has been rescheduled to 
+December 9th, giving the team additional time to deliver more comprehensive results for feedback.
+
+Moving forward, the focus will be on balancing academic commitments and project tasks to ensure steady progress while 
+adhering to project deadlines.
+
+**Sprint Burndown Chart**
+![Sprint 1 Burndown Chart](../files/Spring4BurndownChart.png)
