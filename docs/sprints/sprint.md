@@ -181,17 +181,17 @@ Completing these objectives will enhance entry processes, improve security, and 
 
 | User Stories | Description                              | Story Points |
 |--------------|------------------------------------------|--------------|
-| FIT-24       | Add new Exercices                        | 5            |
-| FIT-42       | QR Code Scanning at Gym Entrance         | 5            |
-| FIT-21       | QR Code Generation for Members           | 3            |
-| FIT-59       | AWS Deployment                           | 8            |
-| FIT-58       | Log Out                                  | 1            |
+| FIT-24       | [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)                         | 5            |
+| FIT-42       | [QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42)          | 5            |
+| FIT-21       | [QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21)           | 3            |
+| FIT-59       | [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59)                           | 8            |
+| FIT-58       | [Log Out](https://fitmonitor.atlassian.net/browse/FIT-58?atlOrigin=eyJpIjoiNDRjNWM3NDVlYjU2NDc4ODk3MDc4ZWJhYWQ1YmZjMzYiLCJwIjoiaiJ9)                                  | 1            |
 
 **Principal Tasks**
 
 | Tasks | Description            | Type |
 |--------------|------------------------|--------------|
-| FIT-46       | Deploy in AWS Services          | Cloud            |
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)           | Cloud            |
 
 **Sprint Retrospective**
 
@@ -215,3 +215,40 @@ adhering to project deadlines.
 
 **Sprint Burndown Chart**
 ![Sprint 1 Burndown Chart](../files/Spring4BurndownChart.png)
+
+
+## Sprint 5 - 25/11/2024 - 08/12/2024
+**Sprint Goal**
+
+In this sprint, our primary objective is to complete the work carried over from the previous sprint, focusing on enhancing gym member access, app functionality, and cloud reliability. The main priorities will be:
+
+1. __Member Access QR Code Generation__: Finalizing the feature that provides each gym member with a unique QR code upon registration. This QR code will be accessible within the app and streamline access control by simplifying member check-ins.
+
+2. __Gym Entrance QR Code Scanning__: Implementing and testing the functionality that allows members to scan their unique QR code at the gym entrance for a seamless and secure check-in process. Ensuring the system handles errors effectively if a scan fails.
+
+3. __AWS Deployment__: Completing the deployment of the application on AWS, establishing a robust cloud environment for consistent performance and high availability. This will ensure a reliable and scalable user experience across all app features.
+
+By focusing on these critical areas, the team aims to finalize the foundational features for member access and secure the application’s infrastructure to enhance reliability, usability, and overall performance.
+
+
+**Responsible Team**
+
+- Scrum Master: [Diogo Pinto](https://github.com/diogopnt)
+- Product Owner: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro)
+- Developers: [Miguel Vieira](https://github.com/Arn46) & [Diogo Silva](https://github.com/DiogoSilva1904)
+
+
+**User Stories**
+
+| User Stories | Description                              | Story Points |
+|--------------|------------------------------------------|--------------|
+| FIT-24       | [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)                        | 5            |
+| FIT-42       | [QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42)         | 5            |
+| FIT-21       | [QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21)           | 3            |
+| FIT-59       | [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59)                           | 8            |
+
+**Principal Tasks**
+
+| Tasks | Description            | Type |
+|--------------|------------------------|--------------|
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud            
