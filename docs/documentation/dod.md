@@ -1,6 +1,6 @@
 # Definition of Done(DoD)
 
-The Definition of Done (DoD) outlines the criteria that must be met for a task to be considered complete. It ensures that all contributions to UA Smart Signage meet a consistent standard of quality and completeness. Below is our Definition of Done:
+The Definition of Done (DoD) outlines the criteria that must be met for a task to be considered complete. It ensures that all contributions to the Fit Monitor App meet a consistent standard of quality and completeness. Below is our Definition of Done:
 
 1. __Functionality Implemented__: The code must implement the desired functionality as described in the task or user story.
 2. __Documentation Updated__: Any relevant documentation (such as user manuals, API documentation, or technical notes) has been updated to reflect the changes made

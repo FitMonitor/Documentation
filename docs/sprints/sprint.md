@@ -91,7 +91,7 @@ To address these challenges and streamline development, we plan to improve organ
 In the next sprint, we will prioritize the pending tasks to ensure they are fully tested, integrated, and aligned with the planned objectives.
 
 **Sprint Burndown Chart**
-![Sprint 1 Burndown Chart](../files/Spring2BurndownChart.png)
+![Sprint 2 Burndown Chart](../files/Spring2BurndownChart.png)
 
 ---
 
@@ -151,7 +151,7 @@ that need further exploration. With these steps, we are aiming to increase focus
 upcoming tasks.
 
 **Sprint Burndown Chart**
-![Sprint 1 Burndown Chart](../files/Spring3BurndownChart.png)
+![Sprint 3 Burndown Chart](../files/Spring3BurndownChart.png)
 
 ---
 
@@ -214,7 +214,7 @@ Moving forward, the focus will be on balancing academic commitments and project 
 adhering to project deadlines.
 
 **Sprint Burndown Chart**
-![Sprint 1 Burndown Chart](../files/Spring4BurndownChart.png)
+![Sprint 4 Burndown Chart](../files/Spring4BurndownChart.png)
 
 
 ## Sprint 5 - 25/11/2024 - 08/12/2024
@@ -251,4 +251,60 @@ By focusing on these critical areas, the team aims to finalize the foundational 
 
 | Tasks | Description            | Type |
 |--------------|------------------------|--------------|
-| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud            
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud   
+
+
+**Sprint Retrospective**
+
+In this sprint, we were unable to implement any of the planned features due to the significant workload from other academic disciplines and the Intermediate 
+Assessment Period (IAP) for Software Engineering. As a result, all the user stories and tasks scheduled for this sprint will be carried over to the next sprint. 
+The team’s primary goal moving forward is to finalize these items and begin tackling the subsequent planned features.
+
+The carried-over work includes:
+
+1. __FIT-24__: [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)  
+2. __FIT-42__: [QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42)  
+3. __FIT-21__: [QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21) 
+4. __FIT-59__: [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59) 
+5. __FIT-46__: [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46) 
+
+This sprint also presented a significant challenge as one of the team members left the project. 
+Consequently, we had to reassess and adjust the final project scope. Some planned functionalities will not be developed to accommodate the reduced team capacity.
+
+It’s worth noting that progress on the project has been minimal over the past three weeks due to these challenges. 
+However, the team is committed to reversing this trend. In the upcoming weeks, we aim to accelerate development and regain momentum to ensure
+ steady progress toward completing the project.
+
+Despite the setbacks, we remain focused on delivering the most essential features and achieving the project’s key objectives.
+
+**Sprint Burndown Chart**
+![Sprint 5 Burndown Chart](../files/Spring5BurndownChart.png)
+
+## Sprint 6 - 08/12/2024 - 22/12/2024
+**Sprint Goal** 
+
+In this sprint, our primary objective is to complete the work carried over from Sprint 5. This includes finalizing the implementation of key features for gym member access, such as QR code functionalities, and completing the AWS deployment to ensure a reliable and scalable application infrastructure.
+
+By focusing on these pending tasks, we aim to meet the goals originally set for the previous sprint and establish a solid foundation for future development.
+
+
+**Responsible Team**
+
+- Scrum Master: [Diogo Silva](https://github.com/DiogoSilva1904)
+- Product Owner: [Diogo Pinto](https://github.com/diogopnt)
+- Developers: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro)
+
+**User Stories**
+
+| User Stories | Description                              | Story Points |
+|--------------|------------------------------------------|--------------|
+| FIT-24       | [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)                        | 5            |
+| FIT-42       | [QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42)         | 5            |
+| FIT-21       | [QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21)           | 3            |
+| FIT-59       | [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59)                           | 8            |
+
+**Principal Tasks**
+
+| Tasks | Description            | Type |
+|--------------|------------------------|--------------|
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud   
