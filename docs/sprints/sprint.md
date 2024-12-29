@@ -308,3 +308,77 @@ By focusing on these pending tasks, we aim to meet the goals originally set for 
 | Tasks | Description            | Type |
 |--------------|------------------------|--------------|
 | FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud   
+
+**Sprint Retrospective**
+
+In this sprint, we faced significant challenges in progressing with the planned work due to the end of classes and the 
+heavy workload from other project submissions. As a result, none of the planned user stories or tasks were completed. 
+
+Despite this, we conducted a sprint review and realigned our approach for the remaining project timeline. 
+Considering that the final delivery is due on January 9th, we have decided to make significant adjustments to our workflow:
+
+1. __Focus on Outstanding Work__: Moving forward, our priority will be to complete all the pending user stories and tasks 
+from the previous sprints. The team will fully dedicate efforts to ensure that these features and functionalities 
+are delivered on time and meet the project’s requirements.
+
+2. __Shorter Sprints__: To better manage the workload and maintain tighter control over deliverables, we will shift from 
+two-week sprints to one-week sprints. This change will allow us to monitor progress more closely and adapt quickly 
+to any challenges that arise.
+
+While this sprint did not yield tangible progress in terms of deliverables, we are committed to turning the situation 
+around in the upcoming sprints. The team has realigned its focus, and with the adjusted sprint structure, we are confident 
+in our ability to meet the project goals and deadlines effectively.
+
+**Sprint Burndown Chart**
+![Sprint 6 Burndown Chart](../files/Spring6BurndownChart.png)
+
+## Sprint 7 - 23/12/2024 - 29/12/2024
+**Sprint Goal** 
+
+In this sprint, our primary objective is to complete the work carried over from Sprint 6. This includes finalizing the implementation of key features for gym member access, such as QR code functionalities, and completing the AWS deployment to ensure a reliable and scalable application infrastructure.
+
+By focusing on these pending tasks, we aim to meet the goals originally set for the previous sprint and establish a solid foundation for future development.
+
+
+**Responsible Team**
+
+- Scrum Master: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro)
+- Product Owner: [Diogo Silva](https://github.com/DiogoSilva1904)
+- Developers: [Diogo Pinto](https://github.com/diogopnt)
+
+**User Stories**
+
+| User Stories | Description                              | Story Points |
+|--------------|------------------------------------------|--------------|
+| FIT-24       | [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)                        | 5            |
+| FIT-42       | [QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42)         | 5            |
+| FIT-21       | [QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21)           | 3            |
+| FIT-59       | [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59)                           | 8            |
+
+**Principal Tasks**
+
+| Tasks | Description            | Type |
+|--------------|------------------------|--------------|
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)          | Cloud   
+
+**Sprint Retrospective**
+
+In Sprint 7, we made significant progress by completing most of the planned user stories, but some adjustments had to be made to the project scope due to unforeseen circumstances. Below is an overview of our accomplishments and challenges:
+
+__Completed User Stories__
+
+[FIT-42: QR Code Scanning at Gym Entrance](https://fitmonitor.atlassian.net/browse/FIT-42): This functionality was successfully implemented and met our __Definition of Done (DoD)__. Gym members can now use the QR code scanning feature for seamless entry.
+
+[FIT-21: QR Code Generation for Members](https://fitmonitor.atlassian.net/browse/FIT-21): The system now generates unique QR codes for each member upon registration, providing an improved and secure gym access experience.
+
+__AWS Deployment Preparations__
+
+Although [FIT-59: AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59) has not been completed, we successfully finalized the associated task [FIT-46: Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46). The architecture for cloud deployment is now fully designed, and the necessary AWS services have been identified. The actual deployment will be carried out in the final week once the MVP is fully developed.
+
+__Challenges and Adjustments__
+
+[FIT-24: Add New Exercises](https://fitmonitor.atlassian.net/browse/FIT-24) was not implemented. This feature was originally assigned to a team member who left the project. After evaluating its relevance to the MVP, the team decided it will no longer be part of the development scope.
+
+[FIT-59: AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59) will be deferred to the final sprint. This decision was made to prioritize completing and refining the MVP before focusing on deployment.
+
+**Sprint Burndown Chart**
