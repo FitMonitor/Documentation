@@ -34,8 +34,8 @@ For the first sprint, the primary focus was to establish the foundational elemen
 
 | User Stories | Description                | Storie Points       |
 |--------------|----------------------------|--------------------|
-| FIT-3            | LogIn with Email           | 8     |
-| FIT-9            | Register with Email  | 5         |
+| FIT-3            | [LogIn with Email](https://fitmonitor.atlassian.net/browse/FIT-3)             | 8     |
+| FIT-9            | [Register with Email](https://fitmonitor.atlassian.net/browse/FIT-9)    | 5         |
 
 **Sprint Retrospective**
 
@@ -72,10 +72,10 @@ These implementations lay the groundwork for a more interactive and user-centric
 
 | User Stories | Description            | Story Points |
 |--------------|------------------------|--------------|
-| FIT-25       | Add Machines           | 3            |
-| FIT-12       | Home-Page Redirect     | 5            |
-| FIT-20       | Add User Management    | 8            |
-| FIT-26       | See Gym Capacity       | 5            |
+| FIT-25       | [Add Machines](https://fitmonitor.atlassian.net/browse/FIT-25)             | 3            |
+| FIT-12       | [Home-Page Redirect](https://fitmonitor.atlassian.net/browse/FIT-12)       | 5            |
+| FIT-20       | [Add User Management](https://fitmonitor.atlassian.net/browse/FIT-20)      | 8            |
+| FIT-26       | [See Gym Capacity](https://fitmonitor.atlassian.net/browse/FIT-26)         | 5            |
 
 
 **Sprint Retrospective**
@@ -120,15 +120,15 @@ Successfully executing these tasks will enable us to establish a robust foundati
 
 | User Stories | Description            | Story Points |
 |--------------|------------------------|--------------|
-| FIT-20       | Add User Management          | 8            |
-| FIT-24       | Add new Exercices    | 5            |
+| FIT-20       | [Add User Management](https://fitmonitor.atlassian.net/browse/FIT-20)            | 8            |
+| FIT-24       | [Add new Exercices](https://fitmonitor.atlassian.net/browse/FIT-24)      | 5            |
 
 **Principal Tasks**
 
 | Tasks | Description            | Type |
 |--------------|------------------------|--------------|
-| FIT-46       | Deploy in AWS Services          | Cloud            |
-| FIT-47       | QR Code Implementation Research    | Research            |
+| FIT-46       | [Deploy in AWS Services](https://fitmonitor.atlassian.net/browse/FIT-46)            | Cloud            |
+| FIT-47       | [QR Code Implementation Research](https://fitmonitor.atlassian.net/browse/FIT-47)      | Research            |
 
 
 **Sprint Retrospective**
@@ -216,6 +216,7 @@ adhering to project deadlines.
 **Sprint Burndown Chart**
 ![Sprint 4 Burndown Chart](../files/Spring4BurndownChart.png)
 
+---
 
 ## Sprint 5 - 25/11/2024 - 08/12/2024
 **Sprint Goal**
@@ -280,6 +281,8 @@ Despite the setbacks, we remain focused on delivering the most essential feature
 **Sprint Burndown Chart**
 ![Sprint 5 Burndown Chart](../files/Spring5BurndownChart.png)
 
+---
+
 ## Sprint 6 - 08/12/2024 - 22/12/2024
 **Sprint Goal** 
 
@@ -332,6 +335,8 @@ in our ability to meet the project goals and deadlines effectively.
 **Sprint Burndown Chart**
 ![Sprint 6 Burndown Chart](../files/Spring6BurndownChart.png)
 
+---
+
 ## Sprint 7 - 23/12/2024 - 29/12/2024
 **Sprint Goal** 
 
@@ -382,3 +387,43 @@ __Challenges and Adjustments__
 [FIT-59: AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59) will be deferred to the final sprint. This decision was made to prioritize completing and refining the MVP before focusing on deployment.
 
 **Sprint Burndown Chart**
+![Sprint 7 Burndown Chart](../files/Spring7BurndownChart.png)
+
+---
+
+## Sprint 8 - 30/12/2024 - 05/01/2025
+**Sprint Goal** 
+
+In this sprint, our primary objective is to finalize all functionalities related to QR codes, ensuring seamless integration and usability across the gym platform. This includes completing tasks such as QR code generation for gym machines, scanning for machine check-ins, and viewing machine occupancy in real time.
+
+After completing all tasks related to QR codes, we will advance to the user stories focused on payment functionalities, laying the groundwork for secure and efficient membership payment processing.
+
+By the end of the sprint, we aim to have the MVP (Minimum Viable Product) fully ready, covering all core features required for a functional and efficient gym management system. This will set the stage for the final sprint, where the focus will be exclusively on deployment in AWS Services.
+
+With this plan, the team is committed to delivering a product that meets the project requirements and prepares us for the final steps of the development process.
+
+
+**Responsible Team**
+
+- Scrum Master: [Diogo Pinto](https://github.com/diogopnt)
+- Product Owner: [Miguel Cruzeiro](https://github.com/MiguelCruzeiro)
+- Developers: [Diogo Silva](https://github.com/DiogoSilva1904)
+
+**User Stories**  
+
+| User Stories | Description                                                         | Story Points |
+|--------------|---------------------------------------------------------------------|--------------|
+| FIT-61       | [QR Code Generation for Gym Machines](https://fitmonitor.atlassian.net/browse/FIT-61)            | 5            |
+| FIT-62       | [Upload Images for Gym Machines](https://fitmonitor.atlassian.net/browse/FIT-62)                 |3            |
+| FIT-51       | [View Occupied Machine Status in Real-Time](https://fitmonitor.atlassian.net/browse/FIT-51)      | 8            |
+| FIT-34       | [QR Code Scanning for Machine Check-In](https://fitmonitor.atlassian.net/browse/FIT-34)          | 5            |
+| FIT-36       | [Enable Gym Members to Add Payment Methods](https://fitmonitor.atlassian.net/browse/FIT-36)      | 3            |
+| FIT-64       | [Generate Payment Invoices for Members](https://fitmonitor.atlassian.net/browse/FIT-64)          | 5            |
+| FIT-65       | [Process Gym Membership Payments](https://fitmonitor.atlassian.net/browse/FIT-65)                | 8            |
+| FIT-66       | [View Payment History and Download Receipts](https://fitmonitor.atlassian.net/browse/FIT-66)     | 3            |
+
+**Principal Tasks**  
+
+| Tasks  | Description                           | Type         |
+|--------|---------------------------------------|--------------|
+| FIT-35 | [PWA Integration](https://fitmonitor.atlassian.net/browse/FIT-35)  | Integration  |
