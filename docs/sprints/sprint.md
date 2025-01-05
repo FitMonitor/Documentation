@@ -417,13 +417,37 @@ With this plan, the team is committed to delivering a product that meets the pro
 | FIT-62       | [Upload Images for Gym Machines](https://fitmonitor.atlassian.net/browse/FIT-62)                 |3            |
 | FIT-51       | [View Occupied Machine Status in Real-Time](https://fitmonitor.atlassian.net/browse/FIT-51)      | 8            |
 | FIT-34       | [QR Code Scanning for Machine Check-In](https://fitmonitor.atlassian.net/browse/FIT-34)          | 5            |
-| FIT-36       | [Enable Gym Members to Add Payment Methods](https://fitmonitor.atlassian.net/browse/FIT-36)      | 3            |
+| FIT-36       | [Enable Gym Members to Choose a Membership Plan](https://fitmonitor.atlassian.net/browse/FIT-36)      | 3            |
 | FIT-64       | [Generate Payment Invoices for Members](https://fitmonitor.atlassian.net/browse/FIT-64)          | 5            |
 | FIT-65       | [Process Gym Membership Payments](https://fitmonitor.atlassian.net/browse/FIT-65)                | 8            |
-| FIT-66       | [View Payment History and Download Receipts](https://fitmonitor.atlassian.net/browse/FIT-66)     | 3            |
+| FIT-66       | [Restrict Gym Access Without Paid Membership](https://fitmonitor.atlassian.net/browse/FIT-66)     | 3            |
 
 **Principal Tasks**  
 
 | Tasks  | Description                           | Type         |
 |--------|---------------------------------------|--------------|
 | FIT-35 | [PWA Integration](https://fitmonitor.atlassian.net/browse/FIT-35)  | Integration  |
+
+
+**Sprint Retrospective**
+
+This sprint marked a significant milestone in our project as we focused on completing the key functionalities required for the MVP. We are pleased to report that almost all planned user stories were successfully implemented.
+
+Unfortunately, the user story related to generating payment invoices for members (FIT-64) was not completed during this sprint. However, after careful consideration, we decided it will not be included in the MVP since our immediate priority is to finalize the deployment process.
+
+This sprint stands out as the most productive in the project. Despite the team now being reduced to three members from the original four, we successfully delivered 25 out of the 30 planned story points within a single week. The progress throughout the sprint was consistent and well-organized, as shown by the burndown chart, which reflects a steady workflow. This is a significant improvement from previous sprints where early momentum was often hindered by workload delays.
+
+With the MVP now complete, we are prepared to focus solely on deploying the platform on AWS during the final sprint. The team is highly motivated to deliver a production-ready system by the project deadline on January 9th. This sprint has been a testament to the team’s ability to adapt, stay organized, and achieve goals efficiently, making it the most successful sprint in the project’s lifecycle.
+
+**Sprint Burndown Chart**
+
+---
+
+## Sprint 9 - 06/01/2025 - 09/01/2025
+**Sprint Goal** 
+
+In this final sprint, our sole objective is to successfully deploy the gym management platform on AWS, ensuring it is fully functional. As the necessary research and planning for the deployment architecture were completed in previous sprints, this sprint will focus entirely on executing the deployment and configuring the required AWS services.
+
+This sprint will be shorter than usual, concluding on January 9th, to align with the project presentation. Our goal is to deliver a polished, deployed product that meets all requirements and demonstrates the hard work and dedication of the team throughout the project.
+
+
