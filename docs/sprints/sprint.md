@@ -440,6 +440,7 @@ This sprint stands out as the most productive in the project. Despite the team n
 With the MVP now complete, we are prepared to focus solely on deploying the platform on AWS during the final sprint. The team is highly motivated to deliver a production-ready system by the project deadline on January 9th. This sprint has been a testament to the team’s ability to adapt, stay organized, and achieve goals efficiently, making it the most successful sprint in the project’s lifecycle.
 
 **Sprint Burndown Chart**
+![Sprint 8 Burndown Chart](../files/Spring8BurndownChart.png)
 
 ---
 
@@ -450,4 +451,18 @@ In this final sprint, our sole objective is to successfully deploy the gym manag
 
 This sprint will be shorter than usual, concluding on January 9th, to align with the project presentation. Our goal is to deliver a polished, deployed product that meets all requirements and demonstrates the hard work and dedication of the team throughout the project.
 
+**User Stories**
+
+| User Stories | Description                              | Story Points |
+|--------------|------------------------------------------|--------------|
+| FIT-59       | [AWS Deployment](https://fitmonitor.atlassian.net/browse/FIT-59)| 8            |
+
+
+**Principal Tasks**  
+
+| Tasks  | Description                           | Type         |
+|--------|---------------------------------------|--------------|
+| FIT-68 | [API Documentation with Swagger](https://fitmonitor.atlassian.net/browse/FIT-68)  | Documentation  |
+| FIT-67 | [Frontend Route Protection](https://fitmonitor.atlassian.net/browse/FIT-67)  | Programming  |
+| FIT-69 | [Payment Status Page Redirects](https://fitmonitor.atlassian.net/browse/FIT-69)  | Programming  |
 
