@@ -1,4 +1,28 @@
-# Business Model Canvas
+# About the Project
+
+This project was developed as a part of a gym management platform, aimed at improving the overall experience for both gym members and gym administrators. The main problem addressed by this platform is the inefficient management of gym memberships, machine usage, and payment processes. Traditionally, gyms face challenges in tracking member activity, managing memberships and payments manually, and ensuring that the equipment is being utilized effectively.
+
+### The Problem
+
+In many gyms, the process of managing memberships, monitoring the availability of machines, and processing payments is still done manually or through disconnected systems. This leads to inefficiencies, errors in tracking, and a lack of integration between different components of the gym’s operations. Additionally, members often struggle to navigate these processes and experience a lack of real-time information about available machines, payment statuses, or membership plans.
+
+### The Solution
+
+Our gym management platform (The FIT Monitor) solves these issues by integrating key functionalities into a unified system. With features like QR code scanning for machine check-ins, real-time machine occupancy tracking, and automated membership payment processing, this platform streamlines the operations of gyms, providing both administrators and members with an intuitive and seamless experience.
+
+### The Goal of the Project
+
+The goal of this project is to create a user-friendly and efficient app that supports gym administrators in managing memberships and equipment, while also offering gym members a smooth and modern experience in interacting with gym services. The platform aims to:
+
+1. **Simplify the membership process** by enabling users to choose and pay for membership plans.
+2. **Enhance the check-in experience** with QR code scanning and machine tracking, allowing members to check the availability of gym equipment in real time.
+3. **Provide real-time occupancy information** so that both members and administrators can see how many people are currently at the gym.
+4. **Restrict gym access** to only members with active subscriptions, ensuring security and a better overall gym environment.
+
+In summary, the platform is designed to address the inefficiencies in gym management, making it easier for both gym staff and members to navigate the gym environment, while also improving operational processes through automation and real-time data.
+
+### Business Model Canvas
+
 The Business Model Canvas is a strategic management tool that provides a visual framework for developing, describing, and analyzing a business model. It consists of nine key building blocks that outline the fundamental aspects of a business, including:
 
 1. __Customer Segments__: Defines the different groups of people or organizations a business aims to serve.
