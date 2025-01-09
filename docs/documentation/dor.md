@@ -4,7 +4,7 @@ The Definition of Ready (DoR) is a set of criteria used in Agile project managem
 
 1. __Clear Requirements__: The user story must have clear and detailed acceptance criteria that describe what needs to be achieved
 2. __Estimable__: The development team should be able to estimate the effort required to complete the task
-3. __Dependencies Identified__: Any dependencies on other tasks or resources should be identified and addressed
+3. __Dependencies Identified__: Any dependencies on other tasks or resources should be identified and addressed4
 4. __Prioritized__: The user story should be prioritized in the product backlog, indicating its importance relative to others
 5. __Testable__: There should be a clear understanding of how the feature will be tested, including any necessary test cases
 
