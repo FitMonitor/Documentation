@@ -48,55 +48,95 @@ This database ensures data consistency and simplifies management across all micr
 
 ![Microservices Architecture](../files/updated_arq.drawio.png)
 
-This deployment architecture leverages AWS services to ensure scalability, security, and high availability for a gym management platform. Below is an explanation of the key components and their roles within the architecture:
+This deployment is designed to ensure **scalability**, **security**, and **high availability** for a the FIT Monitor APP. The architecture leverages multiple AWS services to provide a reliable and efficient environment. Below is a detailed description of the components and their roles:
+
+---
 
 ### AWS Cloud and Region
 
-- The deployment is hosted within an **AWS Region**, ensuring that all resources are localized to minimize latency and optimize performance. The region encompasses the entire architecture, including the **Virtual Private Cloud (VPC)**.
+- The deployment is hosted within an **AWS Region**, ensuring that all resources are centralized to minimize latency and optimize performance. The entire infrastructure resides within a **Virtual Private Cloud (VPC)** configured for isolation and security.
+
+---
 
 ### Virtual Private Cloud (VPC)
 
-- A dedicated **VPC** isolates the deployment within a secure network environment. This VPC includes both public and private subnets spread across **two availability zones**, enhancing fault tolerance and availability.
+- A **dedicated VPC** isolates the deployment in a secure network environment. The VPC is divided into **public and private subnets**, distributed across **two availability zones** to provide **resilience** and **fault tolerance**.
+
+---
 
 ### Availability Zones
 
-- The architecture spans **two availability zones**, each containing public and private subnets. This ensures redundancy and high availability by distributing resources across multiple zones.
+- The architecture operates across **two availability zones**, each containing public and private subnets. This ensures high availability and redundancy, minimizing the impact of failures in a single zone.
+
+---
 
 ### Public Subnets
 
-Each availability zone includes a public subnet hosting:
+The public subnets in each availability zone include:
 
-- **NAT Gateways**: These allow instances in private subnets to securely access the internet for updates or external communications without exposing them to the public.
+- **Internet Gateway (IGW)**: Connects the VPC to the public internet, enabling external communication for the application.  
+- **NAT Gateways**: Allow instances in private subnets to securely access the internet for updates or external communications without exposing them to the public.
+
+---
 
 ### Private Subnets
 
 The private subnets host the core application services:
 
-**ECS Containers**:
+### ECS Containers
 
-- Containers are deployed using **AWS Elastic Container Service (ECS)** for both the frontend (Angular) and backend (Spring Boot API). These containers handle various application modules:
-  - Payments
-  - QR Code Management
-  - Gym Management
+Using **AWS Elastic Container Service (ECS)**, containers are deployed for the following application modules:
 
-**RDS (MySQL)**:
+  - **Payments**
+  - **QR Code Management**
+  - **Gym Management**
 
-- A relational database service is deployed in the private subnet to securely store critical application data.
+Both the frontend (Angular) and backend (Spring Boot API) are containerized and run on ECS.
+
+### Database (RDS)
+
+- The **Amazon RDS (MySQL)** relational database is deployed in the private subnets to securely store critical application data.
+
+### S3 Bucket
+
+- An **S3 bucket** is connected to the backend (Gym Management API) and is used to store images of gym machines. When a machine is created by an admin, its image is uploaded and stored in the bucket.
+
+---
 
 ### Load Balancers
 
-- **Web Application Load Balancer (Web ALB)**: Distributes incoming traffic across ECS containers in private subnets, ensuring high availability and scalability.
+**Web Application Load Balancer (Web ALB)**:
 
-- **Internal Application Load Balancer (Internal ALB)**: Facilitates secure communication between internal services within the private network.
+  - Manages incoming traffic and distributes requests to ECS containers in private subnets.
+
+**Internal Application Load Balancer (Internal ALB)**:
+
+  - Facilitates secure communication between microservices within the private network. This ALB is connected to all microservices.
+
+---
 
 ### VPC Link
 
-- A **VPC Link** connects the private subnets to an **API Gateway**, enabling secure and efficient communication between internal resources and external clients.
+- A **VPC Link** connects the private subnets to the **API Gateway**, ensuring secure and efficient communication between internal resources and external clients.
+
+---
 
 ### API Gateway
 
-The **API Gateway** serves as the main entry point for external clients and provides:
+The **API Gateway** serves as the primary entry point for external clients and provides:
 
-- **Authentication and Authorization** using **AWS Cognito**.
-- **Role Management** to control user access to specific features and resources.
-- **User Management** to handle user accounts, permissions, and session management.
+- **Authentication and Authorization** using **AWS Cognito**.  
+- **Role Management** to control user access to specific features and resources.  
+- **User Management**, including account creation, permissions, and session handling.
+
+---
+
+### Microservices Communication
+
+- The architecture leverages **Amazon MSK (Managed Streaming for Apache Kafka)** to ensure efficient and reliable communication between microservices.
+
+---
+
+### Monitoring
+
+- **AWS CloudWatch** is used to monitor logs and service metrics, providing visibility and ensuring quick incident response.
