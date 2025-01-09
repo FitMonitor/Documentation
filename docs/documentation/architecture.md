@@ -46,7 +46,7 @@ This database ensures data consistency and simplifies management across all micr
 
 ## AWS Cloud Deployment Architecture
 
-![Microservices Architecture](../files/awsdeploy.png)
+![Microservices Architecture](../files/updated_arq.drawio.png)
 
 This deployment architecture leverages AWS services to ensure scalability, security, and high availability for a gym management platform. Below is an explanation of the key components and their roles within the architecture:
 
