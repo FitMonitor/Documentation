@@ -466,3 +466,15 @@ This sprint will be shorter than usual, concluding on January 9th, to align with
 | FIT-67 | [Frontend Route Protection](https://fitmonitor.atlassian.net/browse/FIT-67)  | Programming  |
 | FIT-69 | [Payment Status Page Redirects](https://fitmonitor.atlassian.net/browse/FIT-69)  | Programming  |
 
+**Sprint Retrospective**
+
+In this final sprint, our main goal was to successfully deploy the gym management platform on AWS and ensure it was fully functional. With all the necessary research and planning for the deployment architecture completed in previous sprints, the team focused entirely on the execution phase. This sprint was intentionally shorter, concluding on January 9th to align with the project presentation deadline.
+
+We are pleased to report that all planned tasks for the sprint were successfully completed, and the project is now in its final, polished state. The deployment on AWS was executed flawlessly, with all required services configured to ensure the platform's functionality, scalability, and security.
+
+In addition to the deployment, the team completed several key development and documentation tasks. The API documentation with Swagger was finalized, providing a clear and comprehensive reference for developers and stakeholders. We also implemented frontend route protection, ensuring that sensitive areas of the platform are secure and accessible only to authorized users. Finally, the payment status page redirects were configured, streamlining the user experience for payment-related activities.
+
+The successful completion of this sprint marks the delivery of a Minimum Viable Product (MVP) that meets all project requirements. The gym management platform is now ready for presentation, showcasing a fully deployed and functional system hosted on AWS. The deployment demonstrates the team's ability to integrate modern technologies and deliver a solution that is both robust and user-friendly.
+
+**Sprint Burndown Chart**
+![Sprint 9 Burndown Chart](../files/Spring9BurndownChart.png)

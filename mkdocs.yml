@@ -5,6 +5,7 @@ nav:
     - Introduction: 
       - About the Project: documentation/introduction.md
       - Architecture: documentation/architecture.md
+      - API Documentation: documentation/api.md
       - Tech Stack: documentation/tech-stack.md
       - Definition of Ready: documentation/dor.md
       - Definition of Done: documentation/dod.md
