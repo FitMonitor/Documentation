@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Página</title>
+  <style>
+    .md-tabs__link {
+      font-size: .8rem !important;
+    }
+
+    .md-tabs {
+      background-color: rgba(0, 0, 0, 0) !important;
+      position: absolute !important;
+      font-weight: 1000 !important;
+    }
+
+    .md-content__inner::before {
+      height: 0px !important;
+    }
+
+    .md-main__inner.md-grid {
+      margin-top: 0px;
+      max-width: 100%;
+    }
+
+    .md-content__inner.md-typeset {
+      margin: 0 0 0 0;
+      padding-top: 0px;
+    }
+
+    .md-typeset h2 {
+      font-weight: normal !important;
+      font-size: 32px !important;
+      line-height: normal !important;
+      margin: 0 0 0 0 !important;
+      letter-spacing: normal !important;
+      padding-bottom: 65px;
+    }
+
+
+    .hero-buttons a {
+      color: #ffffff !important;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Arial", sans-serif !important;
+    }
+
+    .hero-image {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .hero-image::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 1));
+      z-index: 2;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .hero-text {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 3;
+      color: #ffffff !important;
+      text-align: center;
+    }
+
+    .hero-text h1 {
+      font-size: 4em !important;
+      color: #ffffff !important;
+      font-weight: 600 !important;
+      margin-bottom: 20px !important;
+      letter-spacing: normal !important;
+      line-height: normal !important;
+      margin: 0 0 0 0 !important;
+      margin-bottom: 35px !important;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 20px;
+      z-index: 3;
+      justify-content: center;
+    }
+
+    .hero-button,
+    .arrow-button {
+      background-color: #2c29db;
+      color: #ffffff;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      display: inline-block;
+    }
+
+    .hero-button:hover,
+    .arrow-button:hover {
+      background-color: #2825c8;
+    }
+
+    .arrow-button::after {
+      content: "\2192";
+      margin-left: 10px;
+    }
+
+    .intro-section {
+      padding: 50px;
+      background-color: #000000;
+      text-align: center;
+    }
+
+    .intro-columns {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      flex-wrap: wrap;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+
+    .intro-div {
+      width: 25%;
+      padding: 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .project-section {
+      padding: 50px;
+      background-color: #f0f0f0;
+      text-align: center;
+    }
+
+    .card-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: nowrap;
+      padding-right: 17%;
+      padding-left: 17%;
+    }
+
+    .card {
+      width: 250px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      background-color: #ffffff;
+      text-align: center;
+    }
+
+    .card img {
+      border-radius: 50%;
+      max-width: 80%;
+      height: auto;
+    }
+
+    .github-link {
+      display: block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #0366d6;
+    }
+  </style>
+</head>
+
+<body>
+  {% extends "base.html" %}
+  {% block content %}
+  <div class="hero-image">
+    <img src="files/GymHomeImage.png" alt="Hero Image" />
+    <div class="hero-text">
+      <h1>FIT Monitor</h1>
+      <h2>Optimize your workout anytime and anywhere
+      </h2>
+      <div class="hero-buttons">
+        <a href="#section-intro" class="hero-button" data-scroll>See More</a>
+        <a href="documentation/introduction" class="arrow-button" data-scroll>Documentation</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="section-intro" class="intro-section">
+    <div class="intro-columns">
+      <div class="intro-div">
+        <i class="fas fa-dumbbell fa-2x"></i>
+        <h3>Real-time Gym Status</h3>
+        <p>
+          Get live updates on the number of people in the gym, so you can plan your workouts efficiently.
+        </p>
+      </div>
+      <div class="intro-div">
+        <i class="fas fa-list fa-2x"></i>
+        <h3>Personalized Training Plans</h3>
+        <p>
+          Organize your workout plans based on your goals and get suggestions for efficient routines.
+        </p>
+      </div>
+      <div class="intro-div">
+        <i class="fas fa-bell fa-2x"></i>
+        <h3>Motivational Notifications</h3>
+        <p>
+          Receive personalized notifications to keep you motivated and remind you of your workout goals.
+        </p>
+      </div>
+      <div class="intro-div">
+        <i class="fas fa-chart-line fa-2x"></i>
+        <h3>User-Friendly Interface</h3>
+        <p>
+          Navigate through your workout history and track your progress with ease.
+        </p>
+      </div>
+      <div class="intro-div">
+        <i class="fas fa-credit-card fa-2x"></i>
+        <h3>Membership Payments</h3>
+        <p>
+          Conveniently pay your gym membership fees directly through the app, with secure and easy payment options.
+        </p>
+      </div>
+      <div class="intro-div">
+        <i class="fas fa-mobile-alt fa-2x"></i>
+        <h3>PWA Access</h3>
+        <p>
+          Install the platform as a Progressive Web App and enjoy a seamless, full-featured mobile experience on any device.
+        </p>
+      </div>
+    </div>
+  </div>  
+
+  <div class="project-section">
+    <h2>Our Team</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="https://avatars.githubusercontent.com/diogopnt" alt="Imagem do Card 2" />
+        <h3>Diogo Pinto</h3>
+        <p>Developer</p>
+        <a href="https://github.com/diogopnt" class="github-link" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="https://avatars.githubusercontent.com/u/98063728?v=4" alt="Imagem do Card 2" />
+        <h3>Diogo Silva</h3>
+        <p>Developer</p>
+        <a href="https://github.com/DiogoSilva1904" class="github-link" target="_blank">GitHub</a>
+      </div>
+      <div class="card">
+        <img src="https://avatars.githubusercontent.com/u/97924338?v=4" alt="Imagem do Card 2" />
+        <h3>Miguel Cruzeiro</h3>
+        <p>Developer</p>
+        <a href="https://github.com/MiguelCruzeiro" class="github-link" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
+  <script>
+    document.querySelectorAll("[data-scroll]").forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
