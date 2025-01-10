@@ -90,12 +90,17 @@ Using **AWS Elastic Container Service (ECS)**, containers are deployed for the f
   - **Payments**
   - **QR Code Management**
   - **Gym Management**
+  - **Frontend with NGinx**
 
 Both the frontend (Angular) and backend (Spring Boot API) are containerized and run on ECS.
 
 ### Database (RDS)
 
 - The **Amazon RDS (MySQL)** relational database is deployed in the private subnets to securely store critical application data.
+
+### Lambda Functions
+
+- **3 AWS Lambda** functions are used. One for atomatically assigning a "User" role using "cognito:groups" claim of cognito token, another for listing all the users in the user pool and the last one for changing the role of a user. The last two functions are only accessible by the admin. 
 
 ### S3 Bucket
 
@@ -109,10 +114,13 @@ Both the frontend (Angular) and backend (Spring Boot API) are containerized and 
 
   - Manages incoming traffic and distributes requests to ECS containers in private subnets.
 
+  ![alt text](../files/webalb.png)
+
 **Internal Application Load Balancer (Internal ALB)**:
 
   - Facilitates secure communication between microservices within the private network. This ALB is connected to all microservices.
 
+![alt text](../files/internalalb.png)
 ---
 
 ### VPC Link
@@ -129,12 +137,14 @@ The **API Gateway** serves as the primary entry point for external clients and p
 - **Role Management** to control user access to specific features and resources.  
 - **User Management**, including account creation, permissions, and session handling.
 
+![alt text](../files/apigateway.png)
 ---
 
 ### Microservices Communication
 
 - The architecture leverages **Amazon MSK (Managed Streaming for Apache Kafka)** to ensure efficient and reliable communication between microservices.
 
+![alt text](../files/msk.png)
 ---
 
 ### Monitoring
